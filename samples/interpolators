@@ -1,0 +1,6 @@
+// s is a method, and it provides just one way that a string can be interpolated.
+val x = s"Two plus two equals ${2 + 2}"
+print(x)
+
+//Scala SQL libraries typically offer a sql interpolator that looks like this
+val result = sql"select * from $table where $name = $value"
