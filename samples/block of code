@@ -1,0 +1,7 @@
+val a = {
+println("Hello")
+42
+43
+}
+// the value of the last expression inside the code block is what’s assigned to the variable a
+println(a)
