@@ -1,5 +1,5 @@
 for (i <- 0 to 9) {
-  println(i)
+    println(i)
 }
 
 for i <- 0 to 9 do
