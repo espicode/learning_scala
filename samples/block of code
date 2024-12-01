@@ -5,3 +5,9 @@ println("Hello")
 }
 // the value of the last expression inside the code block is what’s assigned to the variable a
 println(a)
+
+{
+val smallInts = ints.filter(_ < 3)
+println(smallInts)
+}
+
